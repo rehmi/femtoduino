@@ -6,3 +6,8 @@
 /llt/*.o
 /llt/*.a
 /flisp.boot.bak
+/tiny/*.o
+/build
+/tiny/build
+/tiny/lisp
+.vscode/c_cpp_properties.json
