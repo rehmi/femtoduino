@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+firmware = 'build/femtoduino.ino.bin'
+elf = 'build/femtoduino.ino.elf'
+gdbServerPort = 3333

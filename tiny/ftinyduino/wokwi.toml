@@ -1,5 +1,0 @@
-[wokwi]
-version = 1
-firmware = '../build/ftinyduino.ino.bin'
-elf = '../build/ftinyduino.ino.elf'
-gdbServerPort = 3333

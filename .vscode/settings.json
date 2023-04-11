@@ -1,0 +1,7 @@
+{
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	},
+	"idf.port": "/dev/cu.usbserial-DN0311XF"
+}
