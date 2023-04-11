@@ -2262,7 +2262,7 @@ static void lisp_init(size_t initial_heapsize)
     htable_new(&printconses, 32);
     comparehash_init();
     N_STACK = heapsize >> 1;
-    Stack = malloc(N_STACK*sizeof(value_t));
+    Stack = LLT_ALLOC(N_STACK*sizeof(value_t));
 
     FL_NIL = NIL = builtin(OP_THE_EMPTY_LIST);
     FL_T = builtin(OP_BOOL_CONST_T);

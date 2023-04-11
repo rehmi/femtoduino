@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 {
     char fname_buf[1024];
 
-    fl_init(64*1024);
+    fl_init(16*1024);
 
     fname_buf[0] = '\0';
 #ifdef INITFILE

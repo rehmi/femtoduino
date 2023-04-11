@@ -1,5 +1,5 @@
 {
-    "configuration": "FlashFreq=80,PartitionScheme=default,UploadSpeed=921600,DebugLevel=none,EraseFlash=none",
+    "configuration": "FlashFreq=80,PartitionScheme=default,UploadSpeed=921600,DebugLevel=verbose,EraseFlash=none",
     "board": "esp32:esp32:esp32thing",
     "sketch": "femtoduino/femtoduino.ino",
     "output": "build",
